@@ -32,7 +32,7 @@ public class DownloadFile {
 		driver.findElement(By.linkText("ZIP file")).click();
 		Thread.sleep(3000);
 		File file= new File(downloadFilePath + "\\DownloadDemo-master.zip\\");
-		
+		// this is test comment from android device
 		if(file.exists())
 		{
 			System.out.println("File got successfully Downloaded");
