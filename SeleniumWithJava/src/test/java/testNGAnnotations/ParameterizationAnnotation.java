@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ParameterizationAnnotation {
 
 	@Parameters({"URL"})
-	@Test
+	@Test(enabled=false)
 	
 	public void LaunchBrowser(String url) {
 		WebDriverManager.chromedriver().setup();

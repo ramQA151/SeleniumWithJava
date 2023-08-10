@@ -13,11 +13,12 @@ public class BeforeMethodAnnotation {
 	}
 	
 	@AfterMethod
+	
 	public void Close() {
 	System.out.println("Browser closed successfully");
 	}
 	
-	@Test
+	@Test 
 	public void Register() {
 		System.out.println("Please Register and fill the mandatory fields");
 	}
