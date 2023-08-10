@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="testNGAnnotations.DataProviderAnnotation" class="method navigator-link" hash-for-method="LoginTest(Ram, 1234)">LoginTest(Ram, 1234)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1" title="testNGAnnotations.ParameterizationAnnotation" class="method navigator-link" hash-for-method="LaunchBrowser(https://www.flipkart.com/)">LaunchBrowser(https://www.flipkart.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNGAnnotations.DataProviderAnnotation" class="method navigator-link" hash-for-method="LoginTest(Vivek, 5678)">LoginTest(Vivek, 5678)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -113,7 +118,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="testNGAnnotations.DataProviderAnnotation" class="method navigator-link" hash-for-method="LoginTest(Vivek, 5678)">LoginTest(Vivek, 5678)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1" title="testNGAnnotations.DataProviderAnnotation" class="method navigator-link" hash-for-method="LoginTest(Ram, 1234)">LoginTest(Ram, 1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -131,15 +136,31 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testNGAnnotations.ParameterizationAnnotation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchBrowser(https://www.flipkart.com/)">
+                  </a> <!-- LaunchBrowser(https://www.flipkart.com/) -->
+                  <span class="method-name">LaunchBrowser</span>
+                  <span class="parameters">(https://www.flipkart.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testNGAnnotations.DataProviderAnnotation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTest(Ram, 1234)">
-                  </a> <!-- LoginTest(Ram, 1234) -->
+                  <a name="LoginTest(Vivek, 5678)">
+                  </a> <!-- LoginTest(Vivek, 5678) -->
                   <span class="method-name">LoginTest</span>
-                  <span class="parameters">(Ram,1234)</span>
+                  <span class="parameters">(Vivek,5678)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -152,10 +173,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTest(Vivek, 5678)">
-                  </a> <!-- LoginTest(Vivek, 5678) -->
+                  <a name="LoginTest(Ram, 1234)">
+                  </a> <!-- LoginTest(Ram, 1234) -->
                   <span class="method-name">LoginTest</span>
-                  <span class="parameters">(Vivek,5678)</span>
+                  <span class="parameters">(Ram,1234)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,7 +191,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;parameter name=&quot;URL&quot; value=&quot;https://omayo.blogspot.com/&quot;/&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://www.flipkart.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testNGAnnotations.ParameterizationAnnotation&quot;/&gt;
@@ -214,11 +235,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTest')
-data.setCell(0, 2, 'testNGAnnotations.DataProviderAnnotation')
-data.setCell(0, 3, 4);
+data.setCell(0, 1, 'LaunchBrowser')
+data.setCell(0, 2, 'testNGAnnotations.ParameterizationAnnotation')
+data.setCell(0, 3, 3910);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LoginTest')
 data.setCell(1, 2, 'testNGAnnotations.DataProviderAnnotation')
@@ -227,11 +248,15 @@ data.setCell(2, 0, 2)
 data.setCell(2, 1, 'LoginTest')
 data.setCell(2, 2, 'testNGAnnotations.DataProviderAnnotation')
 data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginTest')
+data.setCell(3, 2, 'testNGAnnotations.DataProviderAnnotation')
+data.setCell(3, 3, 0);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -246,16 +271,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testNGAnnotations.ParameterizationAnnotation</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">LaunchBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite1" class="panel">
@@ -264,18 +282,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">testNGAnnotations.ParameterizationAnnotation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchBrowser(https://www.flipkart.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">testNGAnnotations.DataProviderAnnotation</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">LoginTest(Ram, 1234)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">3914 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginTest(Vivek, 5678)</span>
-                <span class="method-start">6 ms</span>
+                <span class="method-start">3916 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginTest(Narayan, 9876)</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">3917 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
