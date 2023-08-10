@@ -3,11 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testNGAnnotations.DataProviderAnnotation">
-        <methods>
-          <include name="LoginTest"/>
-        </methods>
-      </class> <!-- testNGAnnotations.DataProviderAnnotation -->
       <class name="testNGAnnotations.ParameterizationAnnotation">
         <methods>
           <include name="LaunchBrowser"/>

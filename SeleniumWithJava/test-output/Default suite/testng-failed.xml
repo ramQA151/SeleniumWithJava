@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertions.DemoAssert">
+      <class name="listenersAnnotation.DataProviderAttribute">
         <methods>
-          <include name="DemoMetho"/>
+          <include name="TestLogin"/>
         </methods>
-      </class> <!-- assertions.DemoAssert -->
+      </class> <!-- listenersAnnotation.DataProviderAttribute -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
