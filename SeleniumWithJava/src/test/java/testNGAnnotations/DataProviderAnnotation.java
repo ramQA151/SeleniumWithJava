@@ -7,7 +7,7 @@ public class DataProviderAnnotation {
 
 	@Test(dataProvider="getData")
 	public void LoginTest(String username , String password) {
-		System.out.println("User logged in successfully:" +username + "and password: " +password);
+		System.out.println("User logged in successfully: " +username + "and password: " +password);
 		
 	}
 	

@@ -8,11 +8,11 @@ public class Class1 {
 	public void TestMethod1() {
 		System.out.println("Demo 1 test method");
 	}
-	@Test
+	@Test (enabled=false,groups= {"Smoke"})
 	public void TestMethod2() {
 		System.out.println("Demo 2 test method");
 	}
-	@Test
+	@Test (groups= {"Smoke"})
 	public void TestMethod3() {
 		System.out.println("Demo 3 test method");
 		
