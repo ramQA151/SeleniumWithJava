@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listenersAnnotation.DataProviderAttribute">
+      <class name="selectClass.MultiSelect">
         <methods>
-          <include name="TestLogin"/>
+          <include name="SelectMultipleOptions"/>
+          <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- listenersAnnotation.DataProviderAttribute -->
+      </class> <!-- selectClass.MultiSelect -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
