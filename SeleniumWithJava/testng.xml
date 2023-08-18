@@ -6,9 +6,7 @@
       <class name="testNGAnnotations.TestAnnotation"/>
       <class name="testNGAnnotations.BeforeClassAnnotation"/>
       <class name="testNGAnnotations.BeforeMethodAnnotation"/>
-     <class name="testNGAnnotations.BeforeSuiteAnnotation"/>
-      <class name="testNGAnnotations.ParameterizationAnnotation"/>
-     <class name="testNGAnnotations.DataProviderAnnotation"/>
+      <class name="testNGAnnotations.DataProviderAnnotation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
